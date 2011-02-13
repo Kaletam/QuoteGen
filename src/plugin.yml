@@ -3,3 +3,23 @@
 name: QuoteGenerator
 main: org.bukkit.awesomepants.quotegen.QuoteGen
 version: 0.1
+website: http://www.example.com/404.html
+author: AwesomePants
+description: >
+             Quote generator. Because. Mostly as a test plugin!
+commands:
+  quotegen:
+    description: Quote related stuff!
+    usage: |
+           Usage -
+           /<command> quote - Prints a random quote.
+           /<command> send <playername> - Send the player a random quote.
+           /<command> broadcast - Broadcasts a random quote to all players.
+  qg:
+    description: Shorthand command for quote related stuff!
+    usage: |
+           Usage -
+           /<command> quote - Prints a random quote.
+           /<command> send <playername> - Send the player a random quote.
+           /<command> broadcast - Broadcasts a random quote to all players.
+ 

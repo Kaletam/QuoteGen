@@ -10,13 +10,17 @@ import org.bukkit.event.block.BlockPhysicsEvent;
 /**
  * QuoteGen block listener
  * @author Kaletam
+ *
+ * For now, don't do anything at all.
+ * In fact, we may not do *anything* with this at all.
+ * 
  */
-public class QuoteGenBlockListener extends BlockListener {
+public class QuoteGenBlockListener extends BlockListener
+{
     private final QuoteGen plugin;
 
-    public QuoteGenBlockListener(final QuoteGen plugin) {
-        this.plugin = plugin;
+    public QuoteGenBlockListener(final QuoteGen plugin)
+    {
+	this.plugin = plugin;
     }
-
-    //put all Block related code here
 }
