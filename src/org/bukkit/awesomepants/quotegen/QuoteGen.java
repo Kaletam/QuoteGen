@@ -51,8 +51,13 @@ public class QuoteGen extends JavaPlugin
     {
 	super(pluginLoader, instance, desc, folder, plugin, cLoader);
 
+<<<<<<< HEAD
 	// Plugin generator tells us this. Dunno, but we'll keep it for reference.
 	// NOTE: Event registration should be done in onEnable not here as all events are unregistered when a plugin is disabled
+=======
+        // NOTE: Event registration should be done in onEnable not here as all events are unregistered when a plugin is disabled
+        // this is for playing with pull requests :D
+>>>>>>> 67a3aa391f9900428efc6b19ca5c3f331f283b6e
     }
 
     @Override
