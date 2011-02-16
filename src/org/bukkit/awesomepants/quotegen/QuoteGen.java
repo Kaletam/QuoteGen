@@ -22,9 +22,12 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.Server;
 
 // Other imports
-// Since the plan is to learn how to use this for future use, we'll throw this in and use it for *some*thing.
-// We'll use this for /qg broadcast and /qg send.
 import com.nijikokun.bukkit.Permissions.Permissions;
+
+// TODO: Add more quotes.
+// TODO: Add support for text file and/or SQL DB storage of quotes.
+// TODO: Distinguish between a quote and its author?
+// TODO: Implement console command execution.
 
 /**
  * QuoteGen for Bukkit
@@ -116,7 +119,6 @@ public class QuoteGen extends JavaPlugin
 	// This *should* be superfluous, since we're only registering /quotegen and /qg, but we'll keep it for now.
 	String commandName = command.getName().toLowerCase();
 
-	// No Permissions checking right now.
 	if ((sender instanceof Player)) // If executed by the player.
 	{
 	    Player p = (Player) sender;
@@ -220,7 +222,7 @@ public class QuoteGen extends JavaPlugin
 			}
 		    }
 
-		    getServer().broadcastMessage(p.getName() + "has sent a broadcast quote.");
+		    getServer().broadcastMessage(p.getName() + " has sent a broadcast quote.");
 		    int players = getServer().broadcastMessage(quote);
 		    p.sendMessage("You have sent a quote to " + players + " players.");
 
