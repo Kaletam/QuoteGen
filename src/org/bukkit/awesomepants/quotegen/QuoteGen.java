@@ -26,6 +26,7 @@ public class QuoteGen extends JavaPlugin {
         // TODO: Place any custom initialisation code here
 
         // NOTE: Event registration should be done in onEnable not here as all events are unregistered when a plugin is disabled
+        // this is for playing with pull requests :D
     }
 
    
