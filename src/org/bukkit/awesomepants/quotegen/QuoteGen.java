@@ -30,6 +30,7 @@ import com.nijikokun.bukkit.Permissions.Permissions;
  * QuoteGen for Bukkit
  *
  * @author Kaletam
+ * Some fun with pull requests, part two
  */
 public class QuoteGen extends JavaPlugin
 {
